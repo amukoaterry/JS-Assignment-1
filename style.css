@@ -14,11 +14,13 @@ justify-content: space-around;
 }
 #Riaad{
     gap: 20px;
+    
 }
 
 #moving{
     font-size: 25px;
     font-style: inherit;
+    text-align: center;
     
 }
 
@@ -58,12 +60,13 @@ color: black;
 }
 
 #yellow{
-    background-color: rgb(230, 153, 19);
+    background-color: orange;
 
 }
 #News{
     font-size: 25px;
-    font-style: oblique;
+    font-style: normal;
+    text-align: center;
 }
  #Pics{
     display: flex;
@@ -71,8 +74,50 @@ color: black;
     gap: 20px;
     margin-right: 20px;
     margin-left: 400px;
+    background-color: blanchedalmond;
 
  }
+
+#letter{
+    color: orange;
+    text-align: center;
+    text-decoration: underline;
+}
+
+ #join{
+  
+    font-size: 50px;
+    font-style: normal;
+    text-align: center;
+
+}
+
+#what{
+text-align: center;
+font-size: 40px;
+
+
+}
+
+#preview{
+    display: flex;
+    justify-content: center;
+}
+
+#subscribe{
+background-color: orange;
+color: white;
+padding: 10px;
+border: solid;
+
+}
+
+#mailsub{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
  #container{
     background-color: darkgrey;
     display: flex;
@@ -80,10 +125,16 @@ color: black;
     padding: 20px;  
  }
  #Logo{
-margin-left: 20ps;
+margin-left: 20px;
+text-align: center;
  }
 #paragraph{
 
 float: left;
 
+}
+.blog{
+    color: orange;
+    text-align: center;
+    text-decoration: underline;
 }
